@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* ///// common-sub ///// */
+
+section#content { margin:100px auto 0; padding:0 100px; }
+
+/* /// FHD /// */
+@media screen and (min-width:1550px) {
+
+    section#title {
+        height:700px;
+        background:url(../imgs/top-zodiac-fhd.jpg) no-repeat center;        
+    }
+        
+    section#content {
+        width:1300px; height:2910px;
+        background:url(../imgs/zodiac-fhd.jpg) no-repeat center;        
+    }
+
+}
+
+
+/* /// HD /// */
+@media screen and (min-width:1050px) and (max-width:1549px) {
+
+    section#title {
+        height:592px;
+        background:url(../imgs/top-zodiac-hd.jpg) no-repeat center;        
+    }
+
+    section#content {
+        width:940px; height:2125px;
+        background:url(../imgs/zodiac-hd.jpg) no-repeat center;        
+    }
+    
+}
+
+
+/* /// TABLET /// */
+@media screen and (min-width:650px) and (max-width:1049px) {
+
+    section#title {
+        height:592px;
+        background:url(../imgs/top-zodiac-tb.jpg) no-repeat center;        
+    }
+
+    section#content {
+        width:940px; height:2125px;
+        background:url(../imgs/zodiac-hd.jpg) no-repeat center;        
+    }
+
+}
+
+
+/* /// MOBILE /// */
+@media screen and (min-width:360px) and (max-width:649px) {
+
+    section#title {
+        height:296px;
+        background:url(../imgs/top-zodiac-mb.jpg) no-repeat center;        
+    }
+
+    section#content {
+        width:360; height:2216px; margin:20px auto 0;
+        background:url(../imgs/zodiac-mb.jpg) no-repeat center;        
+    }
+    
+}
+
+
+/* /// 320 디바이스 체크 /// */
+@media screen and (max-width:359px) {
+
+    section#title {
+        height:296px;
+        background:url(../imgs/top-zodiac-mb.jpg) no-repeat center;        
+    }
+
+    section#content {
+        width:360; height:2216px; margin:20px auto 0;
+        background:url(../imgs/zodiac-mb.jpg) no-repeat center;        
+    }
+    
+}

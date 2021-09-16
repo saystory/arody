@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* ///// reset ///// */
+@font-face {
+    font-family:gs-b;
+    src: url(../fonts/GmarketSansTTFBold.eot), url(../fonts/GmarketSansTTFBold.woff) format('woff');
+}
+@font-face {
+    font-family:gs-l;
+    src: url(../fonts/GmarketSansTTFLight.eot), url(../fonts/GmarketSansTTFLight.woff) format('woff');
+}
+@font-face {
+    font-family:gs-m;
+    src: url(../fonts/GmarketSansTTFMedium.eot), url(../fonts/GmarketSansTTFMedium.woff) format('woff');
+}
+@font-face {
+    font-family:tm-l;
+    src: url(../fonts/times.eot), url(../fonts/times.woff) format('woff');
+}
+@font-face {
+    font-family:tm-b;
+    src: url(../fonts/timesbd.eot), url(../fonts/timesbd.woff) format('woff');
+}
+@font-face {
+    font-family:pl-r;
+    src: url(../fonts/Play-Regular.eot), url(../fonts/Play-Regular.woff) format('woff');
+}
+@font-face {
+    font-family:pl-b;
+    src: url(../fonts/Play-Bold.eot), url(../fonts/Play-Bold.woff) format('woff');
+}
+@font-face {
+    font-family:scd-1;
+    src:url(../fonts/SCDream1.otf.eot), url(../fonts/SCDream1.woff) format('woff');
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: gs-l, sans-serif; color:#333; font-size:15px; background:#fff; }
+h1, h2, h3, h4, h5, h6 { font-family:tm-b, serif; cursor:default; }
+li { float:left; list-style:none; }
+a { display:block; text-decoration:none; border:none; outline:none; }
+img { display:block; }
+.clear { clear:both; }
